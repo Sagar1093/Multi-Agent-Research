@@ -1,0 +1,59 @@
+
+# ============================================
+# Multi-Agent Research System
+# Python 3.11+
+# ============================================
+
+# -----------------------------
+# LangChain
+# -----------------------------
+langchain
+langchain-core
+langchain-community
+
+# -----------------------------
+# Google Gemini LLM
+# -----------------------------
+langchain-google-genai
+google-genai
+
+# -----------------------------
+# Agent Orchestration
+# -----------------------------
+langgraph
+
+# -----------------------------
+# Tavily Web Search
+# -----------------------------
+langchain-tavily
+tavily-python
+
+# -----------------------------
+# Web Scraping
+# -----------------------------
+beautifulsoup4
+requests
+lxml
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+python-dotenv
+
+# -----------------------------
+# Data Validation
+# -----------------------------
+pydantic
+
+# -----------------------------
+# HTTP / Async Support
+# -----------------------------
+httpx
+aiohttp
+
+# -----------------------------
+# Type Compatibility
+# -----------------------------
+typing-extensions
+rich
+
