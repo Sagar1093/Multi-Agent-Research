@@ -5,10 +5,18 @@ from langchain_core.output_parsers import StrOutputParser
 from tools import web_search, scrape_url
 import os
 from dotenv import load_dotenv
+from langchain_ollama import ChatOllama
 
 load_dotenv()
+#GEMINI
+# llm = ChatGoogleGenerativeAI(model = "gemini-3.5-flash",temperature = 0)
 
-llm = ChatGoogleGenerativeAI(model = "gemini-3.5-flash",temperature = 0)
+#OLLAMA - QWEN3 -8B
+llm = ChatOllama(
+    model="qwen3:8b",
+    temperature=0
+)
+
 
 def build_search_agent():
     return create_agent(model = llm, tools = [web_search])
