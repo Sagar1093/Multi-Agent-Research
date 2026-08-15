@@ -57,3 +57,5 @@ aiohttp
 typing-extensions
 rich
 
+fastapi
+uvicorn[standard]
